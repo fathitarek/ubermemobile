@@ -225,15 +225,14 @@ myapp.profileEditBtn=Ti.UI.createButton({
 
 myapp.profileEditBtn.addEventListener('click',function(){
 	
-myapp.db.execute('update table user set name="'+nameText.value+'",email="'+emailText.value+'",phone_number="'+phoneText.value);	
+//myapp.db.execute('update table user set name="'+nameText.value+'",email="'+emailText.value+'",phone_number="'+phoneText.value+'""');	
 	
 	myapp.updateProfile_req=Ti.Network.createHTTPClient({
 	onload:function(){
 		alert (this.responseText);
-    	}
-    	
-   });
-)};	
+	}
+});
+
 
 myapp.updateProfile_req.open("POST","http://192.168.1.105/uberme/public/members/update");
 
@@ -242,9 +241,9 @@ myapp.updateProfile_req.send({
   	"name":nameText.value,
   	"phone_number":phoneText.value , 
   	"email": emailText.value,
-  	
-  });
+  	});
 
+});
 	
 	
 myapp.editProfileView.add(myapp.namelabel);
@@ -374,9 +373,10 @@ myapp.trips_rows.addEventListener('click',function(){
 			right:'160dp',
 		
 			});
+		  }
 		}
-	
-)};
+	});
+});
 
 myapp.tripDetailsView.add(myapp.pickUpLabel);
 myapp.tripDetailsView.add(myapp.destinationLabel);
