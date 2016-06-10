@@ -1,0 +1,195 @@
+
+6/10/2016, 3:07:04 PM
+
+Operating System
+  Name                        = Ubuntu 14.04.4 LTS
+  Version                     = 14.04
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 6160822272
+
+Node.js
+  Node.js Version             = 5.11.1
+  npm Version                 = 3.8.6
+
+Titanium CLI
+  CLI Version                 = 5.0.8
+
+Titanium SDK
+  SDK Version                 = 5.3.0.GA
+  SDK Path                    = /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA
+  Target Platform             = mobileweb
+
+Command
+  /usr/bin/nodejs /home/nouran/.appcelerator/install/5.3.0/package/node_modules/titanium/lib/titanium.js build run --platform mobileweb --log-level trace --sdk 5.3.0.GA --project-dir /home/nouran/workspace/uberme --deploy-type development --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 34065 --config-file /tmp/build-1465564022086.json --no-banner --project-dir /home/nouran/workspace/uberme
+
+[DEBUG]  Detecting modules in /home/nouran/.titanium/modules
+[DEBUG]  Detected android module: facebook 5.0.0 @ /home/nouran/.titanium/modules/android/facebook/5.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /home/nouran/.titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.6 @ /home/nouran/.titanium/modules/android/ti.map/2.3.6
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ /home/nouran/.titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.10 platform=commonjs deploy-type=development path=/home/nouran/.titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[INFO]   Compiling "development" build
+[INFO]   Reading Titanium Mobile Web package.json file
+[INFO]   Validating theme
+[DEBUG]  Using default theme
+[TRACE]  offline build file /tmp/build-bcde3b1f8c7b9b107e254c2467fd9f0a671f104e.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 16992.625 sec ago
+[DEBUG]  Deleting existing build directory
+[INFO]   Copying project files
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/API.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/API.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Accelerometer.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Accelerometer.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Analytics.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Analytics.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/App/Properties.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/App/Properties.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/App.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/App.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Blob.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Blob.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/BlobStream.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/BlobStream.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Buffer.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Buffer.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/BufferStream.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/BufferStream.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Codec.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Codec.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Facebook/LoginButton.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Facebook/LoginButton.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Facebook.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Facebook.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Filesystem/File.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Filesystem/File.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Filesystem/FileStream.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Filesystem/FileStream.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Filesystem.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Filesystem.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Geolocation.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Geolocation.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Gesture.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Gesture.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/IOStream.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/IOStream.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Locale.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Locale.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Map/Annotation.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Map/Annotation.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Map/View.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Map/View.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Map.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Map.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Media/AudioPlayer.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Media/AudioPlayer.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Media/Sound.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Media/Sound.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Media/VideoPlayer.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Media/VideoPlayer.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Media.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Media.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Network/HTTPClient.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Network/HTTPClient.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Network.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Network.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Platform/DisplayCaps.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Platform/DisplayCaps.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Platform.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Platform.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/2DMatrix.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/2DMatrix.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/ActivityIndicator.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/ActivityIndicator.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/ActivityIndicatorStyle.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/ActivityIndicatorStyle.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/AlertDialog.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/AlertDialog.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Animation.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Animation.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Button.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Button.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Clipboard.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Clipboard.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/EmailDialog.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/EmailDialog.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/ImageView.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/ImageView.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Label.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Label.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/MobileWeb/NavigationGroup.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/MobileWeb/NavigationGroup.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/MobileWeb/TableViewSeparatorStyle.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/MobileWeb.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/MobileWeb.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/OptionDialog.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/OptionDialog.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Picker.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Picker.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/PickerColumn.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/PickerColumn.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/PickerRow.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/PickerRow.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/ProgressBar.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/ProgressBar.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/ScrollView.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/ScrollView.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/ScrollableView.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/ScrollableView.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Slider.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Slider.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Switch.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Switch.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Tab.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Tab.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/TabGroup.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/TabGroup.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/TableView.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/TableView.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/TableViewRow.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/TableViewRow.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/TableViewSection.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/TableViewSection.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/TextArea.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/TextArea.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/TextField.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/TextField.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/View.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/View.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/WebView.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/WebView.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI/Window.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI/Window.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/UI.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/UI.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Utils.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Utils.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/XML.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/XML.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/Yahoo.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/Yahoo.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Evented.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Evented.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Filesystem/Local.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Filesystem/Local.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/DoubleTap.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/DoubleTap.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/Dragging.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/Dragging.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/LongPress.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/LongPress.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/Pinch.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/Pinch.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/SingleTap.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/SingleTap.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/Swipe.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/Swipe.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/TouchCancel.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/TouchCancel.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/TouchEnd.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/TouchEnd.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/TouchMove.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/TouchMove.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/TouchStart.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/TouchStart.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Gestures/TwoFingerTap.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Gestures/TwoFingerTap.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Layouts/Base.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Layouts/Base.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Layouts/Composite.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Layouts/Composite.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Layouts/ConstrainingHorizontal.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Layouts/ConstrainingHorizontal.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Layouts/ConstrainingVertical.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Layouts/ConstrainingVertical.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Layouts/Horizontal.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Layouts/Horizontal.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Layouts/Vertical.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Layouts/Vertical.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Layouts.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Layouts.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/Map/Google.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/Map/Google.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/Element.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/Element.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/FontWidget.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/FontWidget.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/KineticScrollView.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/KineticScrollView.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/SuperView.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/SuperView.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/TextBox.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/TextBox.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/WebViewBridge.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/WebViewBridge.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/Widget.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/Widget.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/UI/blank.html => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/UI/blank.html
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/analytics.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/analytics.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/browser.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/browser.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/colors.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/colors.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/css.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/css.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/declare.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/declare.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/dom.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/dom.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/encoding.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/encoding.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/event.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/event.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/has.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/has.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/image.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/image.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/include.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/include.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/lang.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/lang.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/ready.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/ready.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/string.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/string.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/style.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/style.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_/text.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_/text.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti/_.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti/_.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/Ti.js => /home/nouran/workspace/uberme/build/mobileweb/titanium/Ti.js
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/dependencies.json => /home/nouran/workspace/uberme/build/mobileweb/titanium/dependencies.json
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/titanium/package.json => /home/nouran/workspace/uberme/build/mobileweb/titanium/package.json
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/common.css => /home/nouran/workspace/uberme/build/mobileweb/themes/common.css
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Facebook/login.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Facebook/login.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Facebook/loginPressed.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Facebook/loginPressed.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Facebook/loginWide.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Facebook/loginWide.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Facebook/loginWidePressed.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Facebook/loginWidePressed.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Facebook/logout.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Facebook/logout.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Facebook/logoutPressed.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Facebook/logoutPressed.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Map/location.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Map/location.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Map/marker_green.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Map/marker_green.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Map/marker_purple.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Map/marker_purple.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/Map/marker_red.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/Map/marker_red.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/UI/TableViewRow/check.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/UI/TableViewRow/check.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/UI/TableViewRow/child.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/UI/TableViewRow/child.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/UI/TableViewRow/detail.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/UI/TableViewRow/detail.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/UI/TableViewRow/detailActive.png => /home/nouran/workspace/uberme/build/mobileweb/themes/default/UI/TableViewRow/detailActive.png
+[DEBUG]  Copying /home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/mobileweb/themes/default/default.css => /home/nouran/workspace/uberme/build/mobileweb/themes/default/default.css
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/KS_nav_ui.png => /home/nouran/workspace/uberme/build/mobileweb/KS_nav_ui.png
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/KS_nav_views.png => /home/nouran/workspace/uberme/build/mobileweb/KS_nav_views.png
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/app.js => /home/nouran/workspace/uberme/build/mobileweb/app.js
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/mobileweb/appicon.png => /home/nouran/workspace/uberme/build/mobileweb/appicon.png
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/mobileweb/apple_startup_images/Default.png => /home/nouran/workspace/uberme/build/mobileweb/Default.png
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/mobileweb/apple_startup_images/Default-Portrait.png => /home/nouran/workspace/uberme/build/mobileweb/Default-Portrait.png
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/mobileweb/apple_startup_images/Default-Landscape.png => /home/nouran/workspace/uberme/build/mobileweb/Default-Landscape.png
+[INFO]   Finding all Titanium API dependencies
+[INFO]   Creating favicon and Apple touch icons
+[DEBUG]  Copying /home/nouran/workspace/uberme/Resources/mobileweb/appicon.png => /home/nouran/workspace/uberme/build/mobileweb/appicon.png
+[TRACE]  Resizing images: java -jar "/home/nouran/.titanium/mobilesdk/linux/5.3.0.GA/node_modules/node-appc/tools/resizer/resizer.jar" "/home/nouran/workspace/uberme/Resources/mobileweb/appicon.png" "/home/nouran/workspace/uberme/build/mobileweb/favicon.png" 16 16 "/home/nouran/workspace/uberme/build/mobileweb/apple-touch-icon-precomposed.png" 57 57 "/home/nouran/workspace/uberme/build/mobileweb/apple-touch-icon-57x57-precomposed.png" 57 57 "/home/nouran/workspace/uberme/build/mobileweb/apple-touch-icon-72x72-precomposed.png" 72 72 "/home/nouran/workspace/uberme/build/mobileweb/apple-touch-icon-114x114-precomposed.png" 114 114 "/home/nouran/workspace/uberme/build/mobileweb/appicon144.png" 144 144
+[INFO]   Finding all required modules to be cached
+[INFO]   Finding all precached modules
+[INFO]   Finding all precached images
+[INFO]   Bundling Titanium Mobile Module ti.cloud
+[INFO]   Finding all distinct cached modules
+[INFO]   Found 113 dependencies, 2 packages, 113 modules
+[INFO]   Assembling titanium.js
+[INFO]   Processing splash screen
+[INFO]   Assembling titanium.css
+[INFO]   Analyzing JavaScript
