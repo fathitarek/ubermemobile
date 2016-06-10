@@ -1,60 +1,15 @@
 var myapp={};
 
+
+
+myapp.db=Ti.Database.open('user');
+myapp.db.execute('create table IF NOT EXISTS user(user_id integer primary key ,name varchar(255),phone_number int(11),email varchar(255))');	
+
+
+
 myapp.myContainer = Ti.UI.createWindow({
 	layout:"vertical"
 });
-
-
-/////////////////////////////////////login//////////////////////////////////////
-
-myapp.logIn = Ti.UI.createWindow({
-title: 'Login',
-layout: 'vertical',
-ExitOnclose:true
-});
-
-myapp.logoImg=Ti.UI.createImageView({
-	image:"images/UMLogo.png",
-	width:350,
-	height:200,
-	top:5
-});
-
-
-myapp.sloganlabel = Ti.UI.createLabel({
-	text: 'Share your ride',
-	top: 10,
-	textAlign:'center',
-	font: {
-		fontWeight: 'bold',
-		fontSize: 18
-	},
-	height:'auto'
-});
-
-myapp.LogInBtn = Ti.UI.createButton({
-	title: 'Login with UBER',
-	top: 10,
-	height: 40,
-	width: 200
-});
-
-LogInBtn.addEventListener('click', function() {
-	// login API //
-	myapp.db=Ti.Database.open('user');
-	myapp.db.execute('create table IF NOT EXISTS user(user_id integer primary key ,name varchar(255),phone_number int(11),email varchar(255))');	
-	
-});
-
-
-myapp.logIn.add(myapp.logoImg);
-myapp.logIn.add(myapp.sloganlabel);
-myapp.logIn.add(myapp.LogInBtn);
-myapp.logIn.open();
-
-
-
-
 
 /////////////////////////////////create tabs//////////////////////////////////
 
@@ -91,7 +46,7 @@ myapp.tab_request=Ti.UI.createTab({
 myapp.tabGroup.addTab(myapp.tab_settings);
 myapp.tabGroup.addTab(myapp.tab_request);
 
-myapp.tabGroup.open();
+myapp.myContainer.add(myapp.tabGroup);
 
 
 ///////////////////////////////////tab1_request///////////////////////////////////////
@@ -433,4 +388,3 @@ myapp.myTripDetails.add(myapp.tripDetailsView);
 ///////////////////////////////end_of_app//////////////////////////////////////////
 
 myapp.myContainer.open();
-
